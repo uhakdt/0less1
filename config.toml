@@ -2,6 +2,8 @@ baseURL = "http://www.0less1.com/"
 languageCode = "en-us"
 title = "0 < 1"
 theme = "ezhil"
+katex = true
+markup = "mmark"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
@@ -11,14 +13,14 @@ googleAnalytics = "UA-123-45"
 disqusShortname = "localhost"
 
 [params]
-	subtitle = "Mathematics & Computer Science concepts explained ¶"
+	subtitle = "Mathematics & Computer Science concepts explained ∀∞"
 	# Number of posts to show in recent posts list.
 	recentPostsCount = 25
 	# Content types which are excluded from recent posts and archive page.
 	excludedTypes = ["page"]
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
-
+  
 [[menu.main]]
 name = "Home"
 url = "/"

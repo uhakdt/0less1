@@ -6,10 +6,56 @@
     <description>Recent content in Posts on 0 &lt; 1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>First Post - Content &amp; Schedule</title>
+      <link>/post/first-post-content-schedule/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/first-post-content-schedule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First Post - Schedule, content and introduction</title>
+      <link>/post/first-post-schedule-content-and-introduction/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/first-post-schedule-content-and-introduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction: Content and Schedule</title>
+      <link>/post/introduction-content-and-schedule/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/introduction-content-and-schedule/</guid>
+      <description>This Blog is for me to help myself and whats infinitely more important others, to understand concepts in the fields of Mathematics &amp;amp; Computer Science. Every now and then, I will diverge into other topics that will still be connected to M &amp;amp; CS, but nonetheless interesting to myself.
+I will consistently try to create a post a day on simple topics initially and slowly build up into more complicated ones.</description>
+    </item>
+    
+    <item>
+      <title>test 2</title>
+      <link>/post/test-2/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test 3</title>
+      <link>/post/test-3/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test-3/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>
