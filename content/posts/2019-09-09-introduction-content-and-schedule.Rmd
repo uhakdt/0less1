@@ -6,7 +6,7 @@ slug: introduction-content-and-schedule
 categories: []
 tags:
   - intro
-draft: yes
+draft: no
 katex: yes
 markup: mmark
 ---
