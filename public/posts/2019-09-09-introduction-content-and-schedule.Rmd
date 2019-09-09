@@ -9,5 +9,19 @@ tags:
 draft: no
 katex: yes
 markup: mmark
+disqus: false
 ---
+This Blog is for me to help myself and whats infinitely more important others, to understand concepts in the fields of Mathematics & Computer Science. Every now and then, I will diverge into other topics that will still be connected to M & CS, but nonetheless interesting to myself.
 
+I will consistently try to create a post a day on simple topics initially and slowly build up into more complicated ones. The bulk of the theory that I will touch on will be in Mathematics and the bulk of applications in real world will be in Computer Science, which should not be surprising.
+
+The topics I will tackle for the next month or so are the following:  
+
+- The Real n-space  
+- Matrix Algebra  
+- Systems of Linear Equations  
+- Determinants  
+- Linear Transformations  
+- Subspaces of R^n  
+- Eigenvalues, eigenvectors & applications  
+- Orthonormal sets & quadratic forms
