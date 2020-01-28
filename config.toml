@@ -1,4 +1,4 @@
-baseURL = "http://www.0less1.com/"
+baseURL = "https://0less1.netlify.com/"
 languageCode = "en-us"
 title = "0 < 1"
 theme = "ezhil"
@@ -11,11 +11,10 @@ googleAnalytics = "UA-140454003-1"
 disqusShortname = "localhost"
 
 [params]
-	subtitle = "Mathematics & Computer Science concepts explained ∀∞"
+	subtitle = "Reinforcement Learning explained ∀"
 	# Number of posts to show in recent posts list.
 	recentPostsCount = 50
 	# Content types which are excluded from recent posts and archive page.
-	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
   
 [[menu.main]]
