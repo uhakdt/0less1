@@ -28,7 +28,34 @@ I will start off with the absolute basics and work my way up.</description>
       <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/test/</guid>
-      <description>hello</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testd</title>
+      <link>/post/testd/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/testd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tests</title>
+      <link>/post/tests/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testsd</title>
+      <link>/posts/testsd/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/testsd/</guid>
+      <description></description>
     </item>
     
     <item>
