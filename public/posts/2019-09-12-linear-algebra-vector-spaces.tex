@@ -1,0 +1,118 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Linear Algebra: Vector Spaces},
+            pdfauthor={miero},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Linear Algebra: Vector Spaces}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{miero}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{2019-09-12}
+
+
+\begin{document}
+\maketitle
+
+We will discuss the vector space initially as an abstract notion before
+diving into examples and then some further explanations.
+
+\(Let\ V\ be\ a\ non-empty\ set.\ Let\ \boldsymbol{a, b,c }\ \in\ V\ and\ \lambda\ , \mu\ \in\ \mathbb{R}.\)
+We will denote \(\oplus\) as `sum' and \$\circ\$ as `scalar
+multiplication'. V now satisfies the following axioms:
+
+\begin{align}
+ &(i)\ \ \ \ a\oplus b \in V \ \                                                               &[the\ sum\ of\ \boldsymbol{a}\ and\ \boldsymbol{b}\ is\ in\ V] \\\\
+ &(ii)\ \ \ \ (a\oplus b)\oplus c= a\oplus (b\oplus c)\                                        &[the\ \boldsymbol{associativity\ law}\ holds\ for\ \ \oplus] \\\\
+ &(iii)\ \ \ \ \exists\ e\ \in\ V\ \mid\ a\oplus e = e\oplus a = a\                            &[Existence\ of\ the\ \boldsymbol{identity\ element}] \\\\
+ &(iv)\ \ \ \ \forall\ a\ \in\ V\ there\ exists\ b\ \in\ V\ \mid\ a\oplus b = b\oplus a = e\   &[Existence\ of\ the\ \boldsymbol{right\ \&\ left\ Inverse}]\\\\
+ &(v)\ \ \ \ a\oplus b = b\oplus a\                                                            &[the\ \boldsymbol{commutativity\ law}\ holds\ for\ \ \oplus]\\\\
+ &(vi)\ \ \ \ \lambda \circ a\ \in\ V\                                                         &[scalar\ multiples\ \in\ V]\\\\
+ &(vii)\ \ \ \ \lambda \circ (a\oplus b)=\lambda \circ a\oplus \lambda \circ b                 &[1^{st}\ \boldsymbol{distributivity\ law}\ holds]\\\\
+ &(viii)\ \ \ \ \lambda + \mu \circ a = \lambda \circ a\oplus \mu \circ a                      &[2^{nd}\ \boldsymbol{distributivity\ law}\ holds]\\\\
+ &(ix)\ \ \ \ \lambda \circ (\mu \circ a) = (\lambda\mu)\circ a                                &[the\ \boldsymbol{associativity\ law}\ holds\ for\ \ \circ]\\\\
+ &(x)\ \ \ \ 1 \circ a = a                                                                     &[Existence\ of\ the\ \boldsymbol{identity\ element}\ for\ \ \circ]\\\\
+\end{align}
+
+These 10 axioms look very similar to axioms that would hold for Groups
+and Fields, but we will discuss these in later posts. The following
+examples all hold for all of the axioms above: Example 1:
+
+References:
+
+
+\end{document}

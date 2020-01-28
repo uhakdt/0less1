@@ -2,8 +2,6 @@ baseURL = "http://www.0less1.com/"
 languageCode = "en-us"
 title = "0 < 1"
 theme = "ezhil"
-katex = true
-markup = "mmark"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
@@ -32,14 +30,9 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
-
-[[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 4
+weight = 3
 
 [[params.social]]
 name = "Github"

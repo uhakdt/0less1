@@ -1,0 +1,15 @@
+---
+title: Reinforcement Learning Explained Part 1
+author: miero
+date: '2020-01-20'
+slug: reinforcement-learning-explained-part-1
+categories:
+  - reinforcement_learning
+tags:
+  - reinforcement_learning
+  - rl
+draft: yes
+katex: yes
+markup: mmark
+---
+

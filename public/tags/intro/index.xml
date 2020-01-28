@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>intro on 0 &lt; 1</title>
+    <title>Intro on 0 &lt; 1</title>
     <link>/tags/intro/</link>
-    <description>Recent content in intro on 0 &lt; 1</description>
+    <description>Recent content in Intro on 0 &lt; 1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/intro/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Introduction: Content and Schedule</title>
-      <link>/posts/introduction-content-and-schedule/</link>
-      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <title>Introduction and who I am :}</title>
+      <link>/posts/introduction-and-who-i-am/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/introduction-content-and-schedule/</guid>
-      <description>This Blog is for me to help myself and whats infinitely more important others, to understand concepts in the fields of Mathematics &amp;amp; Computer Science. Every now and then, I will diverge into other topics that will still be connected to M &amp;amp; CS, but nonetheless interesting to myself.
-I will consistently try to create a post a day on simple topics initially and slowly build up into more complicated ones.</description>
+      <guid>/posts/introduction-and-who-i-am/</guid>
+      <description>To my Fellow Padawans,
+My name is Mier(o) Rashid. I will attempt to teach Reinforcement Learning as I learn it myself. I am doing this independently and in order to enter the RL community. Eventually my objective is to be either hired as a RL Researcher or study towards a PhD program (not sure yet [well, I need to get positions first hahaha]).
+I will start off with the absolute basics and work my way up.</description>
     </item>
     
   </channel>

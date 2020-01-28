@@ -3,8 +3,12 @@
 		<div><a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
 </div>
-{{ partial "katex.html" . }}
 {{ template "_internal/google_analytics_async.html" . }}
 {{- with .Site.Params.Social -}}
 <script>feather.replace()</script>
+<script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 {{- end -}}

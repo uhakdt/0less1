@@ -1,0 +1,43 @@
+---
+title: 'Linear Algebra: Vector Spaces'
+author: "miero"
+date: '2019-09-12'
+output:
+  html_document:
+    df_print: paged
+disqus: no
+draft: yes
+katex: yes
+markup: mmark
+description: Over 15 Examples, analogies and an explanation by first principles of
+  Vector Spaces
+slug: linear-algebra-vector-spaces
+tags:
+- linear_algebra
+- vector
+- vector_spaces
+categories: []
+---
+We will discuss the vector space initially as an abstract notion before diving into examples and then some further explanations.
+
+$Let\ V\ be\ a\ non-empty\ set.\ Let\ \boldsymbol{a, b,c }\ \in\ V\ and\ \lambda\ , \mu\ \in\ \mathbb{R}.$
+We will denote $\oplus$ as 'sum' and $\circ$ as 'scalar multiplication'. V now satisfies the following axioms:
+
+\begin{align}
+ &(i)\ \ \ \ a\oplus b \in V \ \                                                               &[the\ sum\ of\ \boldsymbol{a}\ and\ \boldsymbol{b}\ is\ in\ V] \\\\
+ &(ii)\ \ \ \ (a\oplus b)\oplus c= a\oplus (b\oplus c)\                                        &[the\ \boldsymbol{associativity\ law}\ holds\ for\ \ \oplus] \\\\
+ &(iii)\ \ \ \ \exists\ e\ \in\ V\ \mid\ a\oplus e = e\oplus a = a\                            &[Existence\ of\ the\ \boldsymbol{identity\ element}] \\\\
+ &(iv)\ \ \ \ \forall\ a\ \in\ V\ there\ exists\ b\ \in\ V\ \mid\ a\oplus b = b\oplus a = e\   &[Existence\ of\ the\ \boldsymbol{right\ \&\ left\ Inverse}]\\\\
+ &(v)\ \ \ \ a\oplus b = b\oplus a\                                                            &[the\ \boldsymbol{commutativity\ law}\ holds\ for\ \ \oplus]\\\\
+ &(vi)\ \ \ \ \lambda \circ a\ \in\ V\                                                         &[scalar\ multiples\ \in\ V]\\\\
+ &(vii)\ \ \ \ \lambda \circ (a\oplus b)=\lambda \circ a\oplus \lambda \circ b                 &[1^{st}\ \boldsymbol{distributivity\ law}\ holds]\\\\
+ &(viii)\ \ \ \ \lambda + \mu \circ a = \lambda \circ a\oplus \mu \circ a                      &[2^{nd}\ \boldsymbol{distributivity\ law}\ holds]\\\\
+ &(ix)\ \ \ \ \lambda \circ (\mu \circ a) = (\lambda\mu)\circ a                                &[the\ \boldsymbol{associativity\ law}\ holds\ for\ \ \circ]\\\\
+ &(x)\ \ \ \ 1 \circ a = a                                                                     &[Existence\ of\ the\ \boldsymbol{identity\ element}\ for\ \ \circ]\\\\
+\end{align}
+
+These 10 axioms look very similar to axioms that would hold for Groups and Fields, but we will discuss these in later posts. The following examples all hold for all of the axioms above:
+Example 1:
+
+
+References: 

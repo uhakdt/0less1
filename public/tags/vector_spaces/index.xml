@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vector_spaces on 0 &lt; 1</title>
+    <link>/tags/vector_spaces/</link>
+    <description>Recent content in Vector_spaces on 0 &lt; 1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/vector_spaces/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linear Algebra: Vector Spaces</title>
+      <link>/posts/linear-algebra-vector-spaces/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/linear-algebra-vector-spaces/</guid>
+      <description>We will discuss the vector space initially as an abstract notion before diving into examples and then some further explanations.
+\(Let\ V\ be\ a\ non-empty\ set.\ Let\ \boldsymbol{a, b,c }\ \in\ V\ and\ \lambda\ , \mu\ \in\ \mathbb{R}.\) We will denote \(\oplus\) as ‘sum’ and \(\circ\) as ‘scalar multiplication’. V now satisfies the following axioms:
+\[\begin{align} &amp;amp;(i)\ \ \ \ a\oplus b \in V \ \ &amp;amp;[the\ sum\ of\ \boldsymbol{a}\ and\ \boldsymbol{b}\ is\ in\ V] \\\\ &amp;amp;(ii)\ \ \ \ (a\oplus b)\oplus c= a\oplus (b\oplus c)\ &amp;amp;[the\ \boldsymbol{associativity\ law}\ holds\ for\ \ \oplus] \\\\ &amp;amp;(iii)\ \ \ \ \exists\ e\ \in\ V\ \mid\ a\oplus e = e\oplus a = a\ &amp;amp;[Existence\ of\ the\ \boldsymbol{identity\ element}] \\\\ &amp;amp;(iv)\ \ \ \ \forall\ a\ \in\ V\ there\ exists\ b\ \in\ V\ \mid\ a\oplus b = b\oplus a = e\ &amp;amp;[Existence\ of\ the\ \boldsymbol{right\ \&amp;amp;\ left\ Inverse}]\\\\ &amp;amp;(v)\ \ \ \ a\oplus b = b\oplus a\ &amp;amp;[the\ \boldsymbol{commutativity\ law}\ holds\ for\ \ \oplus]\\\\ &amp;amp;(vi)\ \ \ \ \lambda \circ a\ \in\ V\ &amp;amp;[scalar\ multiples\ \in\ V]\\\\ &amp;amp;(vii)\ \ \ \ \lambda \circ (a\oplus b)=\lambda \circ a\oplus \lambda \circ b &amp;amp;[1^{st}\ \boldsymbol{distributivity\ law}\ holds]\\\\ &amp;amp;(viii)\ \ \ \ \lambda + \mu \circ a = \lambda \circ a\oplus \mu \circ a &amp;amp;[2^{nd}\ \boldsymbol{distributivity\ law}\ holds]\\\\ &amp;amp;(ix)\ \ \ \ \lambda \circ (\mu \circ a) = (\lambda\mu)\circ a &amp;amp;[the\ \boldsymbol{associativity\ law}\ holds\ for\ \ \circ]\\\\ &amp;amp;(x)\ \ \ \ 1 \circ a = a &amp;amp;[Existence\ of\ the\ \boldsymbol{identity\ element}\ for\ \ \circ]\\\\ \end{align}\]</description>
+    </item>
+    
+  </channel>
+</rss>

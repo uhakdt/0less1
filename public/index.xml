@@ -6,29 +6,41 @@
     <description>Recent content on 0 &lt; 1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Introduction: Content and Schedule</title>
-      <link>/posts/introduction-content-and-schedule/</link>
-      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <title>Introduction and who I am :}</title>
+      <link>/posts/introduction-and-who-i-am/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/introduction-content-and-schedule/</guid>
-      <description>This Blog is for me to help myself and whats infinitely more important others, to understand concepts in the fields of Mathematics &amp;amp; Computer Science. Every now and then, I will diverge into other topics that will still be connected to M &amp;amp; CS, but nonetheless interesting to myself.
-I will consistently try to create a post a day on simple topics initially and slowly build up into more complicated ones.</description>
+      <guid>/posts/introduction-and-who-i-am/</guid>
+      <description>To my Fellow Padawans,
+My name is Mier(o) Rashid. I will attempt to teach Reinforcement Learning as I learn it myself. I am doing this independently and in order to enter the RL community. Eventually my objective is to be either hired as a RL Researcher or study towards a PhD program (not sure yet [well, I need to get positions first hahaha]).
+I will start off with the absolute basics and work my way up.</description>
     </item>
     
     <item>
-      <title>About</title>
+      <title>WhoAmI?</title>
       <link>/about/</link>
       <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
       
       <guid>/about/</guid>
-      <description>I am a Mathematics &amp;amp; Computer Science undergraduate Student at the University of Southampton with a background in Design Engineering &amp;amp; Biology. I am interested in the following topics (meaning I may post about any of these at any point in time, though the more frequent and consistent content will be in Mathematics &amp;amp; Computer Science):
-Machine Learning (mainly Reinforcement Learning), One-shot Learning, Robotics, Cosmology, Chemistry, Neuroscience, linguistics, music, philosophy, economics, analysis of algorithms, BlockChain, Cyber Security, Logic, History and some other topics.</description>
+      <description>I study and work on Reinforcement Learning independently.
+Hobbies: Reading passingly on a variety of topics,
+The people I look up to and admire are the following:
+\newlien Donald Ervin Knuth (&amp;ldquo;The Don&amp;rdquo;), Noam Chomsky, Claude Shannon, Terence Tao, Andrew Wiles, Isaac Newton, Haidin Rashid, Kurt Gödel, Johnny von Neumann, Elon Musk, Richard Feynman, Caucher Birker, Albert Einstein, James C. Maxwell and many others.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>WhoAmI?/*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */!function(a,b){&#34;object&#34;==typeof module&amp;&amp;&#34;object&#34;==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error(&#34;jQuery requires a window with a document&#34;);return b(a)}:b(a)}(&#34;undefined&#34;!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l=&#34;1.11.3&#34;,m=function(a,b){return new m.fn.init(a,b)},n=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,o=/^-ms-/,p=/-([\da-z])/gi,q=function(a,b){return b.toUpperCase()};m.fn=m.prototype={jquery:l,constructor:m,selector:&#34;&#34;,length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=m.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return m.each(this,a,b)},map:function(a){return this.pushStack(m.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0a?b:0);return this.pushStack(c=0&amp;&amp;bc?[this[c]]:[])},end:function(){return this.prevObject||this.constructor(null)},push:f,sort:c.sort,splice:c.splice},m.extend=m.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for(&#34;boolean&#34;==typeof g&amp;&amp;(j=g,g=arguments[h]||{},h++),&#34;object&#34;==typeof g||m.isFunction(g)||(g={}),h===i&amp;&amp;(g=this,h--);ih;h++)if(null!=(e=arguments[h]))for(d in e)a=g[d],c=e[d],g!==c&amp;&amp;(j&amp;&amp;c&amp;&amp;(m.isPlainObject(c)||(b=m.isArray(c)))?(b?(b=!1,f=a&amp;&amp;m.isArray(a)?a:[]):f=a&amp;&amp;m.isPlainObject(a)?a:{},g[d]=m.extend(j,f,c)):void 0!==c&amp;&amp;(g[d]=c));return g},m.extend({expando:&#34;jQuery&#34;+(l+Math.random()).replace(/\D/g,&#34;&#34;),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return&#34;function&#34;===m.type(a)},isArray:Array.isArray||function(a){return&#34;array&#34;===m.type(a)},isWindow:function(a){return null!=a&amp;&amp;a==a.window},isNumeric:function(a){return!m.isArray(a)&amp;&amp;a-parseFloat(a)+1=0},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a||&#34;object&#34;!==m.type(a)||a.nodeType||m.isWindow(a))return!1;try{if(a.constructor&amp;&amp;!j.call(a,&#34;constructor&#34;)&amp;&amp;!j.call(a.constructor.prototype,&#34;isPrototypeOf&#34;))return!1}catch(c){return!1}if(k.ownLast)for(b in a)return j.call(a,b);for(b in a);return void 0===b||j.call(a,b)},type:function(a){return null==a?a+&#34;&#34;:&#34;object&#34;==typeof a||&#34;function&#34;==typeof a?h[i.call(a)]||&#34;object&#34;:typeof a},globalEval:function(b){b&amp;&amp;m.trim(b)&amp;&amp;(a.execScript||function(b){a.eval.call(a,b)})(b)},camelCase:function(a){return a.</description>
     </item>
     
   </channel>
