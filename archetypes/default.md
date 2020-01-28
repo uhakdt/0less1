@@ -4,5 +4,6 @@ date: {{ .Date }}
 draft: true
 katex: true
 markup: "mmark"
+type: page
 ---
 
