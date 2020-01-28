@@ -1,0 +1,18 @@
+---
+title: "Reinforcement Learning Basics Explained"
+author: "miero"
+date: '2020-01-28'
+output: pdf_document
+katex: yes
+markup: mmark
+draft: yes
+slug: reinforcement-learning-basics-explained
+tags:
+- basics
+- rl
+- reinforcement learning
+categories:
+- intro
+- reinforcement learning
+---
+
