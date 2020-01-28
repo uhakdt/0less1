@@ -13,9 +13,8 @@ disqusShortname = "localhost"
 [params]
 	subtitle = "Mathematics & Computer Science concepts explained ∀∞"
 	# Number of posts to show in recent posts list.
-	recentPostsCount = 25
+	recentPostsCount = 50
 	# Content types which are excluded from recent posts and archive page.
-	excludedTypes = ["page"]
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
   
