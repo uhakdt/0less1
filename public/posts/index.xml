@@ -17,7 +17,19 @@
       <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/introduction-and-who-i-am/</guid>
-      <description>To my Fellow Padawans, My name is Mier(o) Rashid. I will attempt to teach Reinforcement Learning as I learn it myself. I am doing this independently and in order to enter the RL community. Eventually my objective is to be either hired as a RL Researcher or study towards a PhD program (not sure yet [well, I need to get positions first hahaha]). I will start off with the absolute basics and work my way up.</description>
+      <description>To my Fellow Padawans,
+My name is Mier(o) Rashid. I will attempt to teach Reinforcement Learning as I learn it myself. I am doing this independently and in order to enter the RL community. Eventually my objective is to be either hired as a RL Researcher or study towards a PhD program (not sure yet [well, I need to get positions first hahaha]).
+I will start off with the absolute basics and work my way up.</description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning Basics Part 1 -</title>
+      <link>/posts/reinforcement-learning-basics/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/reinforcement-learning-basics/</guid>
+      <description>hello (p.24-35 - Sutton and Barto 2018)
+Sutton, Richard S, and Andrew G Barto. 2018. Reinforcement Learning: An Introduction. MIT press.</description>
     </item>
     
   </channel>

@@ -4,6 +4,7 @@ date: {{ .Date }}
 draft: true
 katex: true
 markup: "mmark"
-type: page
+link-citations: true
+bibliography: [x.bib]
 ---
 

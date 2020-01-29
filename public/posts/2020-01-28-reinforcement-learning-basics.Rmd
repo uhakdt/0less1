@@ -1,0 +1,18 @@
+---
+title: Reinforcement Learning Basics Part 1 - 
+author: miero
+date: '2020-01-28'
+slug: reinforcement-learning-basics
+categories:
+  - reinforcement learning basics
+tags:
+  - intro
+  - reinforcement learning
+  - rl
+draft: yes
+katex: yes
+markup: mmark
+bibliography: [x.bib]
+link-citations: true
+---
+hello [p.24-35 - @sutton2018reinforcement]

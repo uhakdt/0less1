@@ -13,11 +13,18 @@ draft: no
 katex: yes
 markup: mmark
 ---
-To my Fellow Padawans,\newline
-My name is Mier(o) Rashid. I will attempt to teach Reinforcement Learning as I learn it myself. I am doing this independently and in order to enter the RL community. Eventually my objective is to be either hired as a RL Researcher or study towards a PhD program (not sure yet [well, I need to get positions first hahaha]).\newline
-I will start off with the absolute basics and work my way up. The way I will approach it, as to ensure that there is a novelty factor involved in my work, is to compile and bring together as many examples, analogies and definitions for the topic at hand. If we tackle a particular topic from multiple angles, I believe an intuition may be built up.\newline
-WhoAmI?\newline
-Hobbies: Reading mainly [All sorts of topics], spending time with my family, watching movies, listen to music, read One Piece, watch Anime, play PC games occasionally (Kakarot recently).\newline
-People I admire: Donald Ervin Knuth ("The Don"), Noam Chomsky, Claude Shannon, Terence Tao, Andrew Wiles, Isaac Newton, Haidin Rashid, Kurt Gödel, Johnny von Neumann, Elon Musk, Richard Feynman, Caucher Birker, Albert Einstein, James C. Maxwell and many others.\newline
-Much Obliged,\newline
+To my Fellow Padawans,
+
+My name is Mier(o) Rashid. I will attempt to teach Reinforcement Learning as I learn it myself. I am doing this independently and in order to enter the RL community. Eventually my objective is to be either hired as a RL Researcher or study towards a PhD program (not sure yet [well, I need to get positions first hahaha]).
+
+I will start off with the absolute basics and work my way up. The way I will approach it, as to ensure that there is a novelty factor involved in my work, is to compile and bring together as many examples, analogies and definitions for the topic at hand. If we tackle a particular topic from multiple angles, I believe an intuition may be built up.
+
+WhoAmI?
+
+Hobbies: Reading mainly [All sorts of topics], spending time with my family, watching movies, listen to music, read One Piece, watch Anime, play PC games occasionally (Kakarot recently).
+
+People I admire: Donald Ervin Knuth ("The Don"), Noam Chomsky, Claude Shannon, Terence Tao, Andrew Wiles, Isaac Newton, Haidin Rashid, Kurt Gödel, Johnny von Neumann, Elon Musk, Richard Feynman, Caucher Birker, Albert Einstein, James C. Maxwell and many others.
+
+Much Obliged,
+
 Miero
