@@ -6,10 +6,20 @@
     <description>Recent content on 0 &lt; 1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reinforcement Learning Basics Part 1 -</title>
+      <link>/posts/reinforcement-learning-basics/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/reinforcement-learning-basics/</guid>
+      <description>      Introduction I will first give an overview of what Reinforcement Learning (RL) is and then introduce the subject by providing analogies to the concept of RL. Then provide definitions, explain some of the basic Mathematics, and finally some python code to go along with it.
+ Overview  {&#34;x&#34;:{&#34;diagram&#34;:&#34;\ngraph TB\n a -- -- d\n d -- -- a\n d -- -- a\n&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}  Analogies  </description>
+    </item>
     
     <item>
       <title>Introduction and who I am :}</title>
@@ -20,16 +30,6 @@
       <description>To my Fellow Padawans,
 My name is Mier(o) Rashid. I will attempt to teach Reinforcement Learning as I learn it myself. I am doing this independently and in order to enter the RL community. Eventually my objective is to be either hired as a RL Researcher or study towards a PhD program (not sure yet [well, I need to get positions first hahaha]).
 I will start off with the absolute basics and work my way up.</description>
-    </item>
-    
-    <item>
-      <title>Reinforcement Learning Basics Part 1 -</title>
-      <link>/posts/reinforcement-learning-basics/</link>
-      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/reinforcement-learning-basics/</guid>
-      <description>hello (p.24-35 - Sutton and Barto 2018)
-Sutton, Richard S, and Andrew G Barto. 2018. Reinforcement Learning: An Introduction. MIT press.</description>
     </item>
     
     <item>

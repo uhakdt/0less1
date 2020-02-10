@@ -4,15 +4,15 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Reinforcement Learning Basics Part 1 - - 0 &lt; 1</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Reinforcement Learning Basics Part 1 -" />
-<meta property="og:description" content="hello (p.24-35 - Sutton and Barto 2018)
-Sutton, Richard S, and Andrew G Barto. 2018. Reinforcement Learning: An Introduction. MIT press." />
+<meta property="og:description" content="      Introduction I will first give an overview of what Reinforcement Learning (RL) is and then introduce the subject by providing analogies to the concept of RL. Then provide definitions, explain some of the basic Mathematics, and finally some python code to go along with it.
+ Overview  {&#34;x&#34;:{&#34;diagram&#34;:&#34;\ngraph TB\n a -- -- d\n d -- -- a\n d -- -- a\n&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}  Analogies  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/reinforcement-learning-basics/" /><meta property="article:published_time" content="2020-01-28T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2020-01-28T00:00:00&#43;00:00"/>
+<meta property="og:url" content="/posts/reinforcement-learning-basics/" /><meta property="article:published_time" content="2020-01-30T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2020-01-30T00:00:00&#43;00:00"/>
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Reinforcement Learning Basics Part 1 -"/>
-<meta name="twitter:description" content="hello (p.24-35 - Sutton and Barto 2018)
-Sutton, Richard S, and Andrew G Barto. 2018. Reinforcement Learning: An Introduction. MIT press."/>
+<meta name="twitter:description" content="      Introduction I will first give an overview of what Reinforcement Learning (RL) is and then introduce the subject by providing analogies to the concept of RL. Then provide definitions, explain some of the basic Mathematics, and finally some python code to go along with it.
+ Overview  {&#34;x&#34;:{&#34;diagram&#34;:&#34;\ngraph TB\n a -- -- d\n d -- -- a\n d -- -- a\n&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}  Analogies  "/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:500,100,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
@@ -50,16 +50,31 @@ Sutton, Richard S, and Andrew G Barto. 2018. Reinforcement Learning: An Introduc
 
 		<div class="post-header">
 			<h1 class="title">Reinforcement Learning Basics Part 1 -</h1>
-			<div class="meta">Posted at &mdash; Jan 28, 2020</div>
+			<div class="meta">Posted at &mdash; Jan 30, 2020</div>
 		</div>
 
 		<div class="markdown">
-			<p><p>hello <span class="citation">(p.24-35 - Sutton and Barto <a href="#ref-sutton2018reinforcement">2018</a>)</span></p>
-<div id="refs" class="references">
-<div id="ref-sutton2018reinforcement">
-<p>Sutton, Richard S, and Andrew G Barto. 2018. <em>Reinforcement Learning: An Introduction</em>. MIT press.</p>
+			<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/d3/d3.min.js"></script>
+<script src="/rmarkdown-libs/dagre/dagre-d3.min.js"></script>
+<link href="/rmarkdown-libs/mermaid/dist/mermaid.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/mermaid/dist/mermaid.slim.min.js"></script>
+<link href="/rmarkdown-libs/DiagrammeR-styles/styles.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/chromatography/chromatography.js"></script>
+<script src="/rmarkdown-libs/DiagrammeR-binding/DiagrammeR.js"></script>
+
+<div id="introduction" class="section level4">
+<h4>Introduction</h4>
+<p>I will first give an overview of what Reinforcement Learning (RL) is and then introduce the subject by providing analogies to the concept of RL. Then provide definitions, explain some of the basic Mathematics, and finally some python code to go along with it.</p>
 </div>
-</div></p>
+<div id="overview" class="section level4">
+<h4>Overview</h4>
+<div id="htmlwidget-1" style="width:672px;height:192px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"diagram":"\ngraph TB\n    a --  --> d\n    d --  --> a\n    d --  --> a\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="analogies" class="section level4">
+<h4>Analogies</h4>
+</div>
 
 		</div><div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -68,7 +83,7 @@ Sutton, Richard S, and Andrew G Barto. 2018. Reinforcement Learning: An Introduc
 		
 		if (window.location.hostname == "localhost")
 			return;
-
+		
 		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 		var disqus_shortname = 'localhost';
 		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';

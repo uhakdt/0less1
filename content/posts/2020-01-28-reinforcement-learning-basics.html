@@ -1,26 +1,45 @@
 ---
-title: Reinforcement Learning Basics Part 1 - 
-author: miero
-date: '2020-01-28'
-slug: reinforcement-learning-basics
-categories:
-  - reinforcement learning basics
-tags:
-  - intro
-  - reinforcement learning
-  - rl
+title: "Reinforcement Learning Basics Part 1 -"
+author: "miero"
+date: '2020-01-30'
+output: pdf_document
 draft: yes
+header-includes:
+- \usepackage{notation}
+- \usepackage[latin1]{inputenc}
+- \usepackage{tikz}
+- \usetikzlibrary{shapes,arrows}
 katex: yes
+link-citations: yes
 markup: mmark
-bibliography: [x.bib]
-link-citations: true
+categories: reinforcement learning basics
+slug: reinforcement-learning-basics
+tags:
+- intro
+- reinforcement learning
+- rl
+bibliography: x.bib
 ---
 
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/d3/d3.min.js"></script>
+<script src="/rmarkdown-libs/dagre/dagre-d3.min.js"></script>
+<link href="/rmarkdown-libs/mermaid/dist/mermaid.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/mermaid/dist/mermaid.slim.min.js"></script>
+<link href="/rmarkdown-libs/DiagrammeR-styles/styles.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/chromatography/chromatography.js"></script>
+<script src="/rmarkdown-libs/DiagrammeR-binding/DiagrammeR.js"></script>
 
 
-<p>hello <span class="citation">(p.24-35 - Sutton and Barto <a href="#ref-sutton2018reinforcement">2018</a>)</span></p>
-<div id="refs" class="references">
-<div id="ref-sutton2018reinforcement">
-<p>Sutton, Richard S, and Andrew G Barto. 2018. <em>Reinforcement Learning: An Introduction</em>. MIT press.</p>
+<div id="introduction" class="section level4">
+<h4>Introduction</h4>
+<p>I will first give an overview of what Reinforcement Learning (RL) is and then introduce the subject by providing analogies to the concept of RL. Then provide definitions, explain some of the basic Mathematics, and finally some python code to go along with it.</p>
 </div>
+<div id="overview" class="section level4">
+<h4>Overview</h4>
+<div id="htmlwidget-1" style="width:672px;height:192px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"diagram":"\ngraph TB\n    a --  --> d\n    d --  --> a\n    d --  --> a\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="analogies" class="section level4">
+<h4>Analogies</h4>
 </div>

@@ -6,5 +6,7 @@ katex: true
 markup: "mmark"
 link-citations: true
 bibliography: [x.bib]
+header-includes:
+   - \usepackage{}
 ---
 

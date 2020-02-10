@@ -6,7 +6,7 @@
     <description>Recent content in Rl on 0 &lt; 1</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/rl/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,11 +14,11 @@
     <item>
       <title>Reinforcement Learning Basics Part 1 -</title>
       <link>/posts/reinforcement-learning-basics/</link>
-      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/reinforcement-learning-basics/</guid>
-      <description>hello (p.24-35 - Sutton and Barto 2018)
-Sutton, Richard S, and Andrew G Barto. 2018. Reinforcement Learning: An Introduction. MIT press.</description>
+      <description>      Introduction I will first give an overview of what Reinforcement Learning (RL) is and then introduce the subject by providing analogies to the concept of RL. Then provide definitions, explain some of the basic Mathematics, and finally some python code to go along with it.
+ Overview  {&#34;x&#34;:{&#34;diagram&#34;:&#34;\ngraph TB\n a -- -- d\n d -- -- a\n d -- -- a\n&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}  Analogies  </description>
     </item>
     
   </channel>
